@@ -1,0 +1,69 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.root, .root2 {
+	-fx-background-image: url("/resources/MenuBackground.jpg");
+	-fx-background-repeat: stretch;
+	-fx-background-size: cover, auto;
+	-fx-padding: 10px;
+}
+
+.choose , .modeButtons{
+	-fx-pref-width: 300px;
+	-fx-pref-height: 70px;
+	-fx-background-radius: 30px;
+	-fx-background-color: grey;
+	-fx-border-color: yellow;
+	-fx-border-width: 5px;
+	-fx-border-radius: 27px;
+	-fx-text-fill: white;
+	-fx-font-size: 30;
+}
+
+.choose:hover, .modeButtons:hover {
+	-fx-background-color: black;
+}
+
+.modeTitle {
+	-fx-font-family: Lobster;
+	-fx-font-size: 50px;
+	-fx-color: black;
+}
+
+.modeButtons {
+	-fx-pref-width: 250px;
+	-fx-pref-height: 50px;
+	-fx-font-size: 25;
+}
+
+.gameButtons {
+	-fx-pref-width: 200px;
+	-fx-pref-height: 50px;
+	-fx-background-radius: 30px;
+	-fx-background-color: purple;
+	-fx-border-color: yellow;
+	-fx-border-width: 5px;
+	-fx-border-radius: 27px;
+	-fx-text-fill: white;
+	-fx-font-size: 20;
+}
+
+.gameButtons:hover {
+	-fx-background-color: red;
+}
+
+.highScoreTitle {
+	-fx-font-family: "Press Start 2P";
+	-fx-font-size: 37px;
+	-fx-text-fill: black; 
+}
+
+.highScoreLabel {
+	-fx-font-family: "Press Start 2P";
+	-fx-font-size: 25px;
+	-fx-text-fill: black; 
+}
+
+.nextLevelSliderLabel {
+	-fx-font-family: "Press Start 2P";
+	-fx-font-size: 25px;
+	-fx-text-fill: blue;
+}
